@@ -15,7 +15,7 @@ def login():
     #print(ele.is_displayed())
     ele.send_keys('yadav.sonu2307@gmail.com')
     pwd = driver.find_element_by_name('password')
-    pwd.send_keys('Sonu@2307')
+    pwd.send_keys('***')
     login = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[4]').click()
     time.sleep(2)
     driver.back()
